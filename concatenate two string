@@ -1,0 +1,5 @@
+x1 = input(" ")
+y1 = input(" ")
+z = x1 + y1
+print("answer is: ",z)
+
