@@ -1,0 +1,11 @@
+#Program to find whether an input number is even or odd.
+
+a = eval(input("enter your no.: "))
+
+
+if (a%2==0):
+ print("no. is even")
+
+else:
+ print("no. is odd")
+
