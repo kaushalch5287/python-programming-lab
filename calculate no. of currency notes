@@ -1,0 +1,15 @@
+#Program that calculates the number of rectangular tiles required to cover a rectangular floor if 
+#the dimensions of the floor and the dimensions of a tile are entered by the user
+amount = int(input("enter amount: ")) -100
+
+tt = 0
+th = 0
+h  = 0
+
+tt = amount//2000
+amount %= 2000
+th = amount//500
+amount %= 500
+h = amount//100+1
+
+print(f"two thousand rupee note {tt} five hundred rupee note {th} hundred rupee note {h} ")
