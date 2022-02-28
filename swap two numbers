@@ -1,0 +1,6 @@
+a = eval(input("enter the first number:"))
+b = eval(input("enter the second number:"))
+temp = a
+a = b
+b = temp
+print(f"after swapping first number {a} second number {b}")
