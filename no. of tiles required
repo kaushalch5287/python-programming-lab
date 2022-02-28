@@ -1,0 +1,8 @@
+#Program that calculates the number of rectangular tiles required to cover a rectangular floor if 
+#the dimensions of the floor and the dimensions of a tile are entered by the user
+a = eval(input("length of floor: "))
+b = eval(input("breath of floor: "))
+c = eval(input("length of tile: "))
+d = eval(input("breath of tile: "))
+e = (a*b)//(c*d)
+print("no. of tiles required: ",e)
