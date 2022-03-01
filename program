@@ -1,0 +1,8 @@
+#Program to input two numbers and subtract the smaller number from the greater number.
+
+a = eval(input("enter smaller number: "))
+b = eval(input("enter greater number: "))
+
+c = b - a 
+
+print("result: ",c)
