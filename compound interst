@@ -1,0 +1,7 @@
+print("program to find compound interest")
+a = eval(input("enter principal ammount: "))
+b = eval(input("enter rate of interest: "))
+c = eval(input("enter time: "))
+d = (a*(1 + b/100)**c) - a
+print("compound intrest: ",d)
+
