@@ -1,0 +1,14 @@
+amount = eval(input("amount spend on shopping:  "))
+
+if amount>=25000:
+    print("gold category")
+    amount *= 0.8
+    print("cash to be paid",amount)
+elif (amount>10000 or amount<25000):
+    print("silver category")
+    amount *= 0.1
+    print("cash to be paid",amount)
+else:
+    print("bronze category")
+    amount *= 0.05
+    print("cash to be paid",amount)
