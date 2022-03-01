@@ -1,0 +1,20 @@
+Program to input the centre of a circle, radius of the circle and an arbitrary point P(x,y) and determine whether the point is inside the circle, on the circle or outside the circle.
+
+r = eval(input("radius: "))
+x1 = eval(input("enter center abscissa: "))
+y1 = eval(input("enter center ordinate "))
+x2 = eval(input("enter arbitary abscissa "))
+y2 = eval(input("enter arbitary ordinate "))
+z = ((x2 - x1) **2 + (y2 - y1) ** 2) **.5
+
+if z>r :
+    print(f"point ({x2},{y2}) is outside the circle")
+
+elif z<r :
+    print(f"point ({x2},{y2}) is inside the circle")
+    
+elif z == r :
+    print(f"point ({x2},{y2}) is on the circle")
+    
+else:
+    print("invalid point")
