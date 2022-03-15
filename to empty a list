@@ -1,0 +1,4 @@
+a = [5,8,6,6,97,5,"hello world",54]
+print("before clear: ",a)
+a.clear()
+print("after clear: ",a)
