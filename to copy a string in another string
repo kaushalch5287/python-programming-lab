@@ -1,0 +1,3 @@
+ls = [3,4,5,86,6]
+pf = ls.copy()
+print(pf)
