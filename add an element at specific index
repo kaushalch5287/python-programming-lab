@@ -1,0 +1,5 @@
+ls = [1,2,5,7,5,97,59,15]
+n = int(input("enter the index: "))
+p = int(input("enter the no. to be inseted: "))
+ls.insert(n,p)
+print(ls)
