@@ -1,0 +1,9 @@
+n = int(input("enter number: "))
+k = 65
+for i in range(n+1):
+    k = 65
+    for j in range(i):
+        print(chr(k),end='')
+        k += 1
+    print()
+   
