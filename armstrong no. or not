@@ -1,0 +1,11 @@
+n = int(input("enter no.: "))
+t = n
+sum = 0
+for i in range(n+1):
+     k = t%10
+     sum += k**3
+     t //= 10
+if(sum==n):
+     print("armstrong number")
+else:
+     print("not armstrong")
