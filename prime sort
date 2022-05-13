@@ -1,0 +1,26 @@
+#Sample Input 0
+
+#"2345234"
+#Sample Output 0
+
+#"2233544"
+
+def prime(x):
+    c = 0
+    for i in range(1,x+1):
+        if x % i == 0:
+            c += 1
+    return c == 2
+
+st = eval(input())
+ls1 = []
+ls2 = []
+for i in st:
+    if prime(int(i)):
+        ls1.append(i)
+    else:
+        ls2.append(i)
+ls1.sort()
+data = ls1 + ls2 
+re = ''.join(data)
+print(f'"{re}"')
