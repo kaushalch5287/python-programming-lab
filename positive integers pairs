@@ -1,0 +1,21 @@
+#Sample Input 0
+
+#100
+#4
+#Sample Output 0
+
+#48 52
+#Explanation 0
+
+#here value of P is 100
+#value of X is 4
+
+#48 + 52 = 100
+#48 ^ 52 = 4
+
+p = int(input())
+x = int(input())
+for i in range(p//2+1):
+    j = p - i
+    if i ^ j == x:
+        print(i,j)
