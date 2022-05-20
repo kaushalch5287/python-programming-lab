@@ -1,0 +1,9 @@
+import numpy as np
+r,c = map(int,input().split())
+a = []
+for i in range(0,r):
+    b = list(map(int,input().split()))
+    a.append(b)
+arr = np.array(a)
+print(arr.transpose())
+print(arr.flatten())
