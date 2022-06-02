@@ -1,0 +1,6 @@
+d = {"name":"kaushal","branch":"cs","sec":"H2","college name":"GLA university",4:2
+}
+d1 = d.copy()
+del d["sec"]
+print(d)
+print(d1)
