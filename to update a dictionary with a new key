@@ -1,0 +1,4 @@
+d = {"name":"kaushal","branch":"cs","sec":"H2","college name":"GLA university",4:2
+}
+d.update({"justin bieber":"singer"})
+print(d)
