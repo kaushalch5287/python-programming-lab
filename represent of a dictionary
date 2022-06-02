@@ -1,0 +1,3 @@
+d = {"name":"kaushal","branch":"cs","sec":"H2","college name":"GLA university"
+}
+print(d)
