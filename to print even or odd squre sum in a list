@@ -1,0 +1,22 @@
+# Write a Python function sumsquare(l) that takes a nonempty list of 
+#integers and returns a list [odd,even], where odd is the sum of 
+#squares all the odd numbers in l and even is the sum of squares of all 
+#the even numbers in l.
+#
+#
+def sumsquare(l):
+     ls = []
+     even = 0
+     odd = 0
+     for i in l:
+          if i%2 == 0:
+               even += i**2
+          else:
+               odd += i**2
+     ls.append(odd)
+     ls.append(even)
+     return ls
+     
+l = list(map(int,input("enter digits: ").split()))
+out = sumsquare(l)
+print(out)
