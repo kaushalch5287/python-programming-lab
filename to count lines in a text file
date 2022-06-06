@@ -1,0 +1,4 @@
+#first you have to create a file info.txt to run this program
+n = sum(1 for l in open('info.txt'))
+
+print(n)
