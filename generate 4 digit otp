@@ -1,0 +1,10 @@
+import random,math
+
+def generateotp():
+     digits = '1234567890'
+     otp = ''
+     for i in range(4):
+          otp += digits[math.floor(random.random()*10)]
+     return otp
+
+print(generateotp())
