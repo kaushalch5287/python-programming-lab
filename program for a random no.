@@ -1,0 +1,4 @@
+import random
+n = int(input())
+r = random.randint(0,n)
+print(r)
