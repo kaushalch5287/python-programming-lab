@@ -1,0 +1,9 @@
+inp = 'kaushal chauhan 12 5554848'
+c = dict()
+for i in inp:
+     if i in c:
+          c[i] += 1 
+     else:
+          c[i] = 1 
+print(c,end='\n')
+
