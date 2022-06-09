@@ -1,0 +1,25 @@
+# Polycarp has n coins, the value of the i-th coin is ai. Polycarp wants
+# to distribute all the coins between his pockets, but he cannot put two
+# coins with the same value into the same pocket.
+# For example, if Polycarp has got six coins represented as an array
+# a=[1,2,4,3,3,2], he can distribute the coins into two pockets as
+# follows: [1,2,3],[2,3,4].
+# Polycarp wants to distribute all the coins with the minimum number
+# of used pockets. Help him to do that
+
+
+lst = list(map(int, input().split()))
+record = []
+count = 0
+
+for i in lst:
+    if i not in record:
+        record.append(i)
+
+    else:
+        count += 1
+
+if count == 0:
+    print(1)
+else:
+    print(count)
