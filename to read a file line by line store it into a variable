@@ -1,0 +1,5 @@
+f=open(r"E:\FILE H\hell.txt",'r')
+a=""
+for i in f:
+    a+=i.strip("\n")
+print(a)
